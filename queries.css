@@ -21,7 +21,18 @@
 /**************************/
 /* BELOW 1200px (Landscape Tablets) */
 /**************************/
+@media (max-width: 600px) {
+  .section-hero {
+    border: 20px dashed blue;
+    background-color: blue;
+  }
+}
 
+@media (max-width: 1200px) {
+  .section-hero {
+    background-color: orangered;
+  }
+}
 @media (max-width: 75em) {
   html {
     /* 9px / 16px  */
